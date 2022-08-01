@@ -26,8 +26,8 @@ body {
 
 main {
     position: relative;
-    /* opacity: 0; */
-    /* filter: blur(10px); */
+    opacity: 0;
+    filter: blur(10px);
     transition: opacity 2s ease-in-out, filter 2s ease-in-out;
 }
 
@@ -133,6 +133,7 @@ footer h4 {
     animation-name: swing;
     animation-iteration-count: infinite;
     animation-duration: 2s;
+    animation-delay: 1s;
     animation-timing-function: ease-in-out;
 }
 
