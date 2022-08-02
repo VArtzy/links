@@ -13,6 +13,7 @@ body {
     /* display: grid;
     place-items: center;
     height: 100vh; */
+    overflow-y: hidden;
 }
 
 #vanta {
@@ -116,6 +117,11 @@ footer {
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(10px);
+    transition: opacity 2s ease-in-out, filter 2s ease-in-out,
+        transform 2s ease-in-out;
 }
 
 footer h4 {
