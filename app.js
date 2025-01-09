@@ -42,4 +42,5 @@ window.addEventListener("DOMContentLoaded", () => {
         footer.style.filter = "blur(0px)"
         footer.style.transform = "translateY(0)"
     }, 1000)
+    document.querySelector("h4").textContent = "Farrel Nikoson - " + new Date().getFullYear()
 })
